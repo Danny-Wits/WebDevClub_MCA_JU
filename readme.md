@@ -6,7 +6,9 @@ This repository is the central hub where club members can **share resources, tut
 Our twist: 🚀 Instead of uploading files directly, you’ll learn to contribute like a real open-source developer using **GitHub Forks and Pull Requests**.
 
 ---
-
+## Live Site 
+| The Site is hosted on github pages . Here is the live link :
+[Click to Visit] https://danny-wits.github.io/WebDevClub_MCA_JU/index.html
 ## 📚 What’s Inside?
 
 - `index.html` → Main club website page
