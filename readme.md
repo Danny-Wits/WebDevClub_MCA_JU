@@ -7,8 +7,7 @@ Our twist: 🚀 Instead of uploading files directly, you’ll learn to contribut
 
 ---
 ## Live Site 
-| The Site is hosted on github pages . Here is the live link :
-[Click to Visit](https://danny-wits.github.io/WebDevClub_MCA_JU/index.html)
+| The Site is hosted on github pages . Here is the live link : [Click to Visit](https://danny-wits.github.io/WebDevClub_MCA_JU/index.html)
 ## 📚 What’s Inside?
 
 - `index.html` → Main club website page
