@@ -1,0 +1,151 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Fira Code", monospace;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #0d1117;
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #30363d;
+}
+header h1 {
+  color: #58a6ff;
+  margin: 0 0 10px 0;
+}
+header nav a {
+  color: #9cdcfe;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: #4ec9b0;
+}
+
+/* Sections */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+section {
+  margin-bottom: 40px;
+}
+h2 {
+  color: #c586c0;
+  border-left: 4px solid #d19a66;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+/* Resource Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #252526;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 4px solid #569cd6;
+  transition: background 0.3s;
+}
+li:hover {
+  background: #2d2d2d;
+}
+a {
+  color: #9cdcfe;
+  text-decoration: none;
+}
+a:hover {
+  color: #4ec9b0;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #0d1117;
+  color: #6a9955;
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid #30363d;
+  font-size: 0.9rem;
+}
+.divider {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #30363d;
+}
+/* YouTube Section */
+#youtube {
+  padding: 2rem;
+  background: #0d1117;
+  border-radius: 12px;
+  margin: 2rem 0;
+  color: #e6edf3;
+  font-family: "Fira Code", monospace;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+#youtube h3 {
+  color: #fe9951;
+
+  margin: 1rem;
+  text-align: center;
+}
+
+.featured-video {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.featured-video iframe {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.featured-video p {
+  margin-top: 0.5rem;
+  color: #b8ffed;
+  font-size: 1rem;
+}
+
+.yt-links {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.yt-links .lang {
+  text-align: right;
+  font-size: 0.8rem;
+  color: #b4b4b4;
+  text-transform: uppercase;
+}
+.yt-links li {
+  margin: 0.4rem 0;
+}
+
+.yt-links a {
+  text-decoration: none;
+  color: #f0f6fc;
+  background: #161b22;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.yt-links a:hover {
+  background: #238636;
+  color: #fff;
+}

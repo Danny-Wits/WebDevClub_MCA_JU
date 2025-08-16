@@ -1,0 +1,209 @@
+/* Global Theme */
+body {
+  margin: 0;
+  font-family: "Fira Code", "Courier New", monospace;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  line-height: 1.6;
+}
+
+/* Header / Navbar with Animated Gradient */
+header {
+  background: linear-gradient(
+    270deg,
+    #ff6f65,
+    hsl(178, 100%, 51%),
+    #58a6ff,
+    #a371f7
+  );
+  background-size: 800% 800%;
+  animation: headerGradient 10s ease infinite;
+
+  color: #020202;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient Animation */
+@keyframes headerGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+nav a {
+  margin: 0 12px;
+  min-width: 80px;
+  color: #202020;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #eaeaea;
+  &::after {
+    content: "]";
+  }
+  &::before {
+    content: "[";
+  }
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Section Titles */
+h2 {
+  color: #c586c0;
+  border-left: 4px solid #d19a66;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+/* Resource Links */
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+.resources li {
+  background: #252526;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 4px solid #569cd6;
+  transition: background 0.3s;
+}
+.resources li:hover {
+  background: #2d2d2d;
+}
+.resources a {
+  color: #7fcffa;
+  text-decoration: none;
+}
+.resources a:hover {
+  color: #b4e4fe;
+}
+.resources-cta {
+  background: #252526;
+  padding: 15px;
+  border-left: 4px solid #d19a66;
+  border-radius: 6px;
+  a {
+    color: #d19a66;
+    text-decoration: none;
+    &:hover {
+      color: #ff9d42;
+      text-decoration: underline;
+    }
+  }
+}
+/* Events Box */
+#events p {
+  background: #252526;
+  padding: 15px;
+  border-left: 4px solid #dcdcaa;
+  border-radius: 6px;
+  color: #d4d4d4;
+}
+
+/* Contact Links */
+#contact a {
+  color: #9cdcfe;
+  text-decoration: none;
+}
+#contact a:hover {
+  color: #4ec9b0;
+}
+
+/* Footer */
+footer {
+  background: #0d1117;
+  color: #6a9955;
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid #30363d;
+  font-size: 0.9rem;
+}
+
+/* How to Contribute Section */
+#contribute {
+  background: #1e1e1e;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#contribute h2 {
+  color: #c586c0;
+  margin-bottom: 20px;
+}
+#contribute ol {
+  counter-reset: step;
+  padding-left: 20px;
+}
+#contribute li {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  list-style: none;
+  position: relative;
+  padding-left: 2rem;
+  color: #d4d4d4;
+}
+#contribute li::before {
+  counter-increment: step;
+  content: counter(step) ".";
+  position: absolute;
+  left: 0;
+  color: #569cd6;
+  font-weight: bold;
+}
+#contribute strong {
+  color: #dcdcaa;
+}
+/* Code Block Styling */
+#contribute code {
+  display: block;
+  background: #252526;
+  color: #9cdcfe;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.95rem;
+  overflow-x: auto;
+  white-space: pre;
+  border-left: 4px solid #569cd6;
+}
+/* Inline links */
+#contribute a {
+  color: #4ec9b0;
+  text-decoration: none;
+}
+#contribute a:hover {
+  text-decoration: underline;
+  color: #9cdcfe;
+}
+/* Final message */
+#contribute p {
+  margin-top: 20px;
+  background: #252526;
+  padding: 15px;
+  border-left: 4px solid #6a9955;
+  border-radius: 6px;
+  color: #6a9955;
+  font-style: italic;
+}
