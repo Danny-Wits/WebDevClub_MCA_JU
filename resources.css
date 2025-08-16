@@ -15,11 +15,20 @@ header {
   border-bottom: 2px solid #30363d;
 }
 header h1 {
-  color: #58a6ff;
-  margin: 0 0 10px 0;
+  color: #d0e5fe;
+  margin: 0 0 8px 0;
 }
+header p {
+  color: #8b949e;
+  margin: 0;
+}
+header div {
+  color: #d19a66;
+  margin-bottom: 10px;
+}
+
 header nav a {
-  color: #9cdcfe;
+  color: #00a5fe;
   text-decoration: none;
 }
 header nav a:hover {
@@ -148,4 +157,18 @@ footer {
 .yt-links a:hover {
   background: #238636;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  #youtube {
+    padding: 1rem;
+  }
+
+  .yt-links a {
+    padding: 0.4rem 0.8rem;
+  }
+  p,
+  a {
+    font-size: 0.8rem;
+  }
 }

@@ -130,7 +130,7 @@ h2 {
 /* Footer */
 footer {
   background: #0d1117;
-  color: #6a9955;
+  color: #f6f6f6;
   text-align: center;
   padding: 1rem;
   border-top: 2px solid #30363d;
@@ -206,4 +206,17 @@ footer {
   border-radius: 6px;
   color: #6a9955;
   font-style: italic;
+}
+@media (max-width: 600px) {
+  p,
+  li a {
+    font-size: 0.9rem;
+  }
+  #contribute {
+    padding: 1rem;
+  }
+  #contribute ol {
+    margin-left: 0rem;
+    padding-left: 0.2rem;
+  }
 }

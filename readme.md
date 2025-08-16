@@ -52,6 +52,17 @@ Our twist: 🚀 Instead of uploading files directly, you’ll learn to contribut
 
 ---
 
+## Created
+
+- Init by @Danny-Wits
+- Styling of the site was majorly vibe coded 😅😅😅
+
 ## 👨‍💻 Management
 
 This repository is maintained and managed by [@DannyWits](https://github.com/Danny-Wits).
+
+## Contributors
+
+@Danny-Wits
+
+_add your name to contributors after making changes_
